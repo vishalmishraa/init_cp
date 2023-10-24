@@ -1,0 +1,210 @@
+{
+    "terminal.integrated.shell.osx": "/bin/bash",
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "java.refactor.renameFromFileExplorer": "autoApply",
+    "java.configuration.checkProjectSettingsExclusions": false,
+    "explorer.confirmDragAndDrop": false,
+    "workbench.editor.enablePreview": false,
+    "workbench.colorTheme": "Visual Studio 2019 Dark",
+    "editor.formatOnSave": true,
+    "json.schemas": [],
+    "editor.tokenColorCustomizations": [],
+    "workbench.colorCustomizations": {
+        "activityBar.background": "#de543b",
+        "activityBar.activeBackground": "#821c1c",
+        "activityBar.inactiveForeground": "#292727",
+        "activityBar.activeBorder": "#faeeee",
+        "statusBar.background": "#c61717",
+        "statusBar.noFolderBackground": "#de543b",
+        "statusBar.debuggingBackground": "#263238"
+    },
+    "java.configuration.runtimes": [
+        {
+            "name": "JavaSE-15",
+            "path": "/Library/Java/JavaVirtualMachines/jdk-15.0.1.jdk/Contents/Home"
+        },
+        {
+            "name": "JavaSE-1.8",
+            "path": "/Library/Java/JavaVirtualMachines/jdk1.8.0_291.jdk/Contents/Home",
+            "default": true
+        }
+    ],
+    "sonarlint.rules": {
+        "Web:S5256": {
+            "level": "off"
+        },
+        "Web:TableWithoutCaptionCheck": {
+            "level": "off"
+        },
+        "javascript:S125": {
+            "level": "off"
+        },
+        "javascript:S1125": {
+            "level": "off"
+        },
+        "Web:S5254": {
+            "level": "off"
+        },
+        "javascript:S905": {
+            "level": "off"
+        },
+        "javascript:S3504": {
+            "level": "off"
+        },
+        "javascript:S1172": {
+            "level": "off"
+        },
+        "secrets:S6334": {
+            "level": "off"
+        },
+        "javascript:S2814": {
+            "level": "off"
+        },
+        "javascript:S1186": {
+            "level": "off"
+        },
+        "javascript:S108": {
+            "level": "off"
+        },
+        "javascript:S5876": {
+            "level": "off"
+        },
+        "java:S1220": {
+            "level": "off"
+        },
+        "java:S1186": {
+            "level": "off"
+        },
+        "java:S1197": {
+            "level": "off"
+        },
+        "java:S106": {
+            "level": "off"
+        },
+        "java:S1128": {
+            "level": "off"
+        }
+    },
+    "editor.fontLigatures": null,
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 100,
+    "explorer.confirmDelete": false,
+    "java.errors.incompleteClasspath.severity": "ignore",
+    "editor.minimap.enabled": false,
+    "bracket-pair-colorizer-2.scopeLineCSS": [
+        "borderStyle : solid",
+        "borderWidth : 1px",
+        "borderColor : {color}",
+        "opacity: 0.5"
+    ],
+    "editor.fontWeight": null,
+    "editor.semanticTokenColorCustomizations": null,
+    "javascript.format.insertSpaceAfterOpeningAndBeforeClosingTemplateStringBraces": true,
+    "java.templates.fileHeader": [],
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "bracket-pair-colorizer-2.depreciation-notice": false,
+    "bracketPairColorizer.depreciation-notice": false,
+    "liveServer.settings.donotVerifyTags": true,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "git.autofetch": true,
+    "cmake.configureOnOpen": false,
+    "editor.guides.bracketPairs": "active",
+    "code-runner.executorMap": {
+        "javascript": "node",
+        "java": "cd $dir && javac $fileName && java $fileNameWithoutExt",
+        "c": "cd $dir && gcc $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "zig": "zig run",
+        "cpp": "cd $dir && g++ $fileName -g -Wall -std=c++17 -o $fileNameWithoutExt && $dir$fileNameWithoutExt < input.txt > output.txt",
+        // "cpp": "cd $dir && g++ $fileName -g -Wall -std=c++17 -o $fileNameWithoutExt && $dir$fileNameWithoutExt ",
+        "objective-c": "cd $dir && gcc -framework Cocoa $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "php": "php",
+        "python": "python -u",
+        "perl": "perl",
+        "perl6": "perl6",
+        "ruby": "ruby",
+        "go": "go run",
+        "lua": "lua",
+        "groovy": "groovy",
+        "powershell": "powershell -ExecutionPolicy ByPass -File",
+        "bat": "cmd /c",
+        "shellscript": "bash",
+        "fsharp": "fsi",
+        "csharp": "scriptcs",
+        "vbscript": "cscript //Nologo",
+        "typescript": "ts-node",
+        "coffeescript": "coffee",
+        "scala": "scala",
+        "swift": "swift",
+        "julia": "julia",
+        "crystal": "crystal",
+        "ocaml": "ocaml",
+        "r": "Rscript",
+        "applescript": "osascript",
+        "clojure": "lein exec",
+        "haxe": "haxe --cwd $dirWithoutTrailingSlash --run $fileNameWithoutExt",
+        "rust": "cd $dir && rustc $fileName && $dir$fileNameWithoutExt",
+        "racket": "racket",
+        "scheme": "csi -script",
+        "ahk": "autohotkey",
+        "autoit": "autoit3",
+        "dart": "dart",
+        "pascal": "cd $dir && fpc $fileName && $dir$fileNameWithoutExt",
+        "d": "cd $dir && dmd $fileName && $dir$fileNameWithoutExt",
+        "haskell": "runghc",
+        "nim": "nim compile --verbosity:0 --hints:off --run",
+        "lisp": "sbcl --script",
+        "kit": "kitc --run",
+        "v": "v run",
+        "sass": "sass --style expanded",
+        "scss": "scss --style expanded",
+        "less": "cd $dir && lessc $fileName $fileNameWithoutExt.css",
+        "FortranFreeForm": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "fortran-modern": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "fortran_fixed-form": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "fortran": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "sml": "cd $dir && sml $fileName"
+    },
+    "lldb.suppressUpdateNotifications": true,
+    "window.zoomLevel": 1,
+    "git.openRepositoryInParentFolders": "always",
+    "code-runner.runInTerminal": true,
+    "code-runner.executorMapByFileExtension": {
+
+        ".vb": "cd $dir && vbc /nologo $fileName && $dir$fileNameWithoutExt",
+        ".vbs": "cscript //Nologo",
+        ".scala": "scala",
+        ".jl": "julia",
+        ".cr": "crystal",
+        ".ml": "ocaml",
+        ".zig": "zig run",
+        ".exs": "elixir",
+        ".hx": "haxe --cwd $dirWithoutTrailingSlash --run $fileNameWithoutExt",
+        ".rkt": "racket",
+        ".scm": "csi -script",
+        ".ahk": "autohotkey",
+        ".au3": "autoit3",
+        ".kt": "cd $dir && kotlinc $fileName -include-runtime -d $fileNameWithoutExt.jar && java -jar $fileNameWithoutExt.jar",
+        ".kts": "kotlinc -script",
+        ".dart": "dart",
+        ".pas": "cd $dir && fpc $fileName && $dir$fileNameWithoutExt",
+        ".pp": "cd $dir && fpc $fileName && $dir$fileNameWithoutExt",
+        ".d": "cd $dir && dmd $fileName && $dir$fileNameWithoutExt",
+        ".hs": "runhaskell",
+        ".nim": "nim compile --verbosity:0 --hints:off --run",
+        ".csproj": "dotnet run --project",
+        ".fsproj": "dotnet run --project",
+        ".lisp": "sbcl --script",
+        ".kit": "kitc --run",
+        ".v": "v run",
+        ".vsh": "v run",
+        ".sass": "sass --style expanded",
+        ".cu": "cd $dir && nvcc $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        ".ring": "ring",
+        ".sml": "cd $dir && sml $fileName",
+        ".mojo": "mojo run"
+    },
+}

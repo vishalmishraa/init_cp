@@ -1,0 +1,34 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"workbench.iconTheme": "material-icon-theme",
+		"vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+		"java.configuration.checkProjectSettingsExclusions": false,
+		"explorer.confirmDragAndDrop": false,
+		"workbench.editor.enablePreview": false,
+		"workbench.colorTheme": "Visual Studio 2019 Dark",
+		"editor.tokenColorCustomizations": [],
+		"workbench.colorCustomizations": {
+			"activityBar.background": "#de543b",
+			"activityBar.activeBackground": "#821c1c",
+			"activityBar.inactiveForeground": "#292727",
+			"activityBar.activeBorder": "#faeeee",
+			"statusBar.background": "#c61717",
+			"statusBar.noFolderBackground": "#de543b",
+			"statusBar.debuggingBackground": "#263238"
+		},
+		"files.autoSave": "afterDelay",
+		"files.autoSaveDelay": 100,
+		"explorer.confirmDelete": false,
+		"java.errors.incompleteClasspath.severity": "ignore",
+		"editor.semanticTokenColorCustomizations": null,
+		"java.templates.fileHeader": [],
+		"liveServer.settings.donotVerifyTags": true,
+		"liveServer.settings.donotShowInfoMsg": true,
+		"window.zoomLevel": 1
+	}
+}
