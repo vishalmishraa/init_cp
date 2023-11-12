@@ -29,6 +29,25 @@
 		"java.templates.fileHeader": [],
 		"liveServer.settings.donotVerifyTags": true,
 		"liveServer.settings.donotShowInfoMsg": true,
-		"window.zoomLevel": 1
+		"window.zoomLevel": 1,
+		"files.associations": {
+			"ostream": "cpp",
+			"iosfwd": "cpp"
+		},
+		"java.project.sourcePaths": [
+			""
+		]
 	}
+	//,
+	// "launch": {
+	// 	"version": "0.2.0",
+	// 	"configurations": [
+	// 		{
+	// 			"type": "java",
+	// 			"name": "Launch Java Program",
+	// 			"request": "launch",
+	// 			"mainClass": ""
+	// 		}
+	// 	]
+	// }
 }
